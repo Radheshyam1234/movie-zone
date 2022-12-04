@@ -1,0 +1,23 @@
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-secondary-color);
+  padding: 10px;
+}
+.topnav h3 {
+  color: var(--primary-color);
+  margin-left: 20px;
+}
+.search-container {
+  flex: 0.5;
+}
+input[type="text"] {
+  width: 70%;
+  border-radius: 6px;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  outline: none;
+}

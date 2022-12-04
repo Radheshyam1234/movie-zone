@@ -1,0 +1,19 @@
+.movie-details-wrapper {
+  color: var(--light-secondary-color);
+  max-width: 40vw;
+  margin: 10px 30%;
+  line-height: 25px;
+}
+
+.movie-data span {
+  padding-right: 20px;
+}
+.movie-data :nth-of-type(n + 2)::before {
+  content: "• ";
+}
+.movie-summary {
+  line-height: 20px;
+}
+.horizontal-line {
+  margin: 10px 0;
+}
